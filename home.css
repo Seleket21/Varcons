@@ -1,0 +1,17 @@
+#photos-offset {
+	margin-top: 10vh;
+}
+
+.photos {
+	width: 300px;
+	transition: transform 0.2s;
+	transition-timing-function: ease-in;
+}
+
+.photos:hover {
+	transform: scale(1.05);
+}
+
+.photo_align {
+	margin-bottom:5px;
+}
