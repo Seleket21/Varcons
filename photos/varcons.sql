@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 16, 2022 at 06:34 AM
+-- Generation Time: Sep 25, 2022 at 03:59 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -33,6 +33,21 @@ CREATE TABLE `photos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Dumping data for table `photos`
+--
+
+INSERT INTO `photos` (`id`, `filename`) VALUES
+(23, 'th-246327423.jpeg'),
+(24, 'th-246327423.jpeg'),
+(25, 'th-246327423.jpeg'),
+(26, 'th-1988292240.jpeg'),
+(27, 'th-1988292240.jpeg'),
+(28, 'th-1988292240.jpeg'),
+(29, 'th-2270368998.jpeg'),
+(30, 'th-2270368998.jpeg'),
+(31, 'th-2270368998.jpeg');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -50,7 +65,7 @@ ALTER TABLE `photos`
 -- AUTO_INCREMENT for table `photos`
 --
 ALTER TABLE `photos`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
